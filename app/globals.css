@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-mist text-slate-900 antialiased; }
+.glass { @apply bg-white/60 backdrop-blur-xl border border-white/50 shadow-premium; }
+.section { @apply max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24; }
+.title { @apply text-3xl md:text-5xl font-semibold tracking-tight; }
